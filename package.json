@@ -1,0 +1,26 @@
+{
+  "name": "static-node.js-and-express-site",
+  "version": "1.0.0",
+  "description": "a static page using node.js and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsosa2000/Static-Node.js-and-Express-Site.git"
+  },
+  "author": "Gabe Sosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsosa2000/Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/gsosa2000/Static-Node.js-and-Express-Site#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {}
+}
