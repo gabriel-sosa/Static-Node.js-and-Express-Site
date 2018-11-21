@@ -1,33 +1,37 @@
+//initial requirements
 const express = require('express');
 const router = express.Router();
 const data = require('../data.json');
-
+//index route
 router.get('/', (req, res) => {
-	res.render('index', {data});
+	return res.render('index', {data});
 });
-
+//about route
 router.get('/about', (req, res) => {
-	res.render('about');
+	return res.render('about');
 });
-
+//projects route, if porject was not fount gives an error
 router.get('/project/:id', (req, res, next) => {
 	for (var i = 0; i < data.length; i++) {
 		if (req.params.id === data[i].id){
 			return res.render('project', data[i]);
 		}
 	}
-	res.status(404);
-	next(new Error('project not found'));
+	const err = new Error(`Project "${req.params.id}" Not Found`);
+	err.status = 404;
+	return next(err);
 });
-
+//if the user searches a non existing page throws an error
 router.use((req, res, next) => {
-	console.log('page not found');
-	res.status(404);
-	next(new Error('Page not found'));
+	const err = new Error('Page Not Found');
+	err.status = 404;
+	return next(err);
 })
-
+//error handler
 router.use((err, req, res, next) => {
-	return res.send(err.message);
+	res.status(err.status);
+	console.log(`an error just happend: ${err.status}, ${err.message}`);
+	return res.render('error', {status: err.status, message: err.message, stack: err.stack});
 })
-
+//return the routes
 module.exports = router;

@@ -11,8 +11,10 @@
 		"live_link": "https://gsosa2000.github.io/A-Random-Quote-Generator",
 		"github_link": "https://github.com/gsosa2000/A-Random-Quote-Generator",
 		"image_urls": [
-			"/images/project-1-pic-1.jpg",
-			"/images/project-1-pic-2.jpg"
+			"project-1-pic-1",
+			"project-1-pic-2",
+			"project-1-pic-3",
+			"project-1-pic-4"
 		]
 	},
 	{
@@ -27,8 +29,10 @@
 		"live_link": "https://gsosa2000.github.io/List-Pagination-and-Filtering",
 		"github_link": "https://github.com/gsosa2000/List-Pagination-and-Filtering",
 		"image_urls": [
-			"/images/project-2-pic-1.jpg",
-			"/images/project-2-pic-2.jpg"
+			"project-2-pic-1",
+			"project-2-pic-2",
+			"project-2-pic-3",
+			"project-2-pic-4"
 		]
 	},
 	{
@@ -44,8 +48,10 @@
 		"live_link": "https://gsosa2000.github.io/Interactive-Form",
 		"github_link": "https://github.com/gsosa2000/Interactive-Form",
 		"image_urls": [
-			"/images/project-3-pic-1.jpg",
-			"/images/project-3-pic-2.jpg"
+			"project-3-pic-1",
+			"project-3-pic-2",
+			"project-3-pic-3",
+			"project-3-pic-4"
 		]
 	},
 	{
@@ -60,8 +66,10 @@
 		"live_link": "https://gsosa2000.github.io/OOP-Game-Show-App",
 		"github_link": "https://github.com/gsosa2000/OOP-Game-Show-App",
 		"image_urls": [
-			"/images/project-4-pic-1.jpg",
-			"/images/project-4-pic-2.jpg"
+			"project-4-pic-1",
+			"project-4-pic-2",
+			"project-4-pic-3",
+			"project-4-pic-4"
 		]
 	},
 	{
@@ -76,8 +84,10 @@
 		"live_link": "https://gsosa2000.github.io/Public-API-Requests",
 		"github_link": "https://github.com/gsosa2000/Public-API-Requests",
 		"image_urls": [
-			"/images/project-5-pic-1.jpg",
-			"/images/project-5-pic-2.jpg"
+			"project-5-pic-1",
+			"project-5-pic-2",
+			"project-5-pic-3",
+			"project-5-pic-4"
 		]
 	}
 ]

@@ -1,0 +1,6 @@
+extends layout.pug
+
+block content
+	h1= `Ops... Error: ${status}, ${message}`
+	h2 it seems that this page doesn't exist
+	p= `${stack}`
