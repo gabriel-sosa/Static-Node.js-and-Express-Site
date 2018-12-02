@@ -20,9 +20,9 @@
 2. Add your dependencies
 3. Handle files and folders that shouldn't be stored in your repo
 4. Images
- - Create an images folder in your directory to store your images.
- - Add a profile pic of yourself that you would feel comfortable sharing with potential employers. It should present well at 550px by 350px.
- - Take screenshots of your projects. You will need at least two screenshots for each project.
+   - Create an images folder in your directory to store your images.
+   - Add a profile pic of yourself that you would feel comfortable sharing with potential employers. It should present well at 550px by 350px.
+   - Take screenshots of your projects. You will need at least two screenshots for each project.
 5. Add your project data to your directory
    - #### Reviewer Comments:
    - > Smart data setup. You've created a JSON file, named it data.json, added all the necessary properties and values, and formatted it correctly.
